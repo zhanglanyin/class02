@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BiewController: UIViewController {
+class BViewController: UIViewController {
     
     @IBOutlet weak var lbMSG: UITextField!
     

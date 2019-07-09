@@ -8,15 +8,15 @@
 
 import UIKit
 
-class AiewController: UIViewController {
+class AViewController: UIViewController {
     
-    @IBOutlet weak var lbMSG: UILabel!
+    @IBOutlet weak var lbMMSG: UILabel!
     
     @IBAction func btnTestClicked(_ sender: Any) {
         print("我按了什么")
         
-        lbMSG.text="我要铜锣烧"
-        lbMSG.textColor=UIColor.red
+        lbMMSG.text="我要铜锣烧"
+        lbMMSG.textColor=UIColor.red
     }
     override func viewDidLoad() {
         super.viewDidLoad()
