@@ -65,26 +65,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lme-PI-2ri">
-                                <rect key="frame" x="328" y="747" width="46" height="30"/>
+                                <rect key="frame" x="328.33333333333331" y="558" width="46" height="30"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="dhS-dH-2vU"/>
-                                    <constraint firstAttribute="width" constant="46" id="gCg-z0-RjP"/>
+                                    <constraint firstAttribute="width" constant="46" id="MY2-6X-GQE"/>
+                                    <constraint firstAttribute="height" constant="30" id="Sjo-FW-1l0"/>
                                 </constraints>
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnTestClicked:" destination="5Od-vh-6U3" eventType="touchUpInside" id="teY-DX-hzv"/>
+                                    <action selector="btnACllicked:" destination="5Od-vh-6U3" eventType="touchUpInside" id="eLy-9O-Mam"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RTH-aF-P84">
-                                <rect key="frame" x="16" y="747" width="308" height="30"/>
+                                <rect key="frame" x="16" y="558" width="304" height="30"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.59999999999999998" green="0.87843137250000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Xox-Lz-70u"/>
-                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -92,21 +89,22 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zs5-MC-l7Y" firstAttribute="bottom" secondItem="RTH-aF-P84" secondAttribute="bottom" constant="1" id="0ji-iZ-a9r"/>
-                            <constraint firstItem="zs5-MC-l7Y" firstAttribute="trailing" secondItem="Lme-PI-2ri" secondAttribute="trailing" constant="1" id="Qd8-fN-bJr"/>
-                            <constraint firstItem="RTH-aF-P84" firstAttribute="leading" secondItem="zs5-MC-l7Y" secondAttribute="leading" constant="16" id="co9-iL-ipR"/>
-                            <constraint firstItem="zs5-MC-l7Y" firstAttribute="bottom" secondItem="Lme-PI-2ri" secondAttribute="bottom" constant="1" id="lq0-ih-GmH"/>
-                            <constraint firstItem="Lme-PI-2ri" firstAttribute="leading" secondItem="RTH-aF-P84" secondAttribute="trailing" constant="4" id="ovl-PH-nhD"/>
+                            <constraint firstItem="RTH-aF-P84" firstAttribute="leading" secondItem="zs5-MC-l7Y" secondAttribute="leading" constant="16" id="8YA-23-k9k"/>
+                            <constraint firstItem="Lme-PI-2ri" firstAttribute="centerY" secondItem="RTH-aF-P84" secondAttribute="centerY" id="CrJ-co-DKO"/>
+                            <constraint firstItem="zs5-MC-l7Y" firstAttribute="trailing" secondItem="Lme-PI-2ri" secondAttribute="trailing" constant="0.67000000000000004" id="IZQ-MJ-f8r"/>
+                            <constraint firstItem="zs5-MC-l7Y" firstAttribute="bottom" secondItem="Lme-PI-2ri" secondAttribute="bottom" constant="190" id="NFr-qA-abV"/>
+                            <constraint firstItem="Lme-PI-2ri" firstAttribute="leading" secondItem="RTH-aF-P84" secondAttribute="trailing" constant="8.3300000000000001" id="rwd-y2-Pf9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zs5-MC-l7Y"/>
                     </view>
                     <connections>
-                        <outlet property="lbMMSG" destination="RTH-aF-P84" id="lhv-pK-1XN"/>
+                        <outlet property="btnHibottomconstraint" destination="NFr-qA-abV" id="l1V-Tz-H3Z"/>
+                        <outlet property="lbXLMsg" destination="RTH-aF-P84" id="eQh-sw-0PN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBT-N8-Krk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="884" y="23"/>
+            <point key="canvasLocation" x="884" y="22.906403940886701"/>
         </scene>
     </scenes>
 </document>
