@@ -56,17 +56,17 @@
             </objects>
             <point key="canvasLocation" x="98.400000000000006" y="22.938530734632685"/>
         </scene>
-        <!--Aiew Controller-->
+        <!--View Controller-->
         <scene sceneID="4FD-St-n5Y">
             <objects>
-                <viewController id="5Od-vh-6U3" customClass="AiewController" customModule="class02" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5Od-vh-6U3" customClass="AViewController" customModule="class02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="K0d-Z4-SRE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lme-PI-2ri">
                                 <rect key="frame" x="328" y="747" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.87323587667464797" green="0.89645686619718312" blue="0.2593529929577465" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="dhS-dH-2vU"/>
                                     <constraint firstAttribute="width" constant="46" id="gCg-z0-RjP"/>
@@ -74,10 +74,13 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnTestClicked:" destination="5Od-vh-6U3" eventType="touchUpInside" id="teY-DX-hzv"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RTH-aF-P84">
                                 <rect key="frame" x="16" y="747" width="308" height="30"/>
-                                <color key="backgroundColor" red="0.61176470589999998" green="0.029626980633802816" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.59999999999999998" green="0.87843137250000003" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Xox-Lz-70u"/>
@@ -97,6 +100,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zs5-MC-l7Y"/>
                     </view>
+                    <connections>
+                        <outlet property="lbMMSG" destination="RTH-aF-P84" id="lhv-pK-1XN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBT-N8-Krk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

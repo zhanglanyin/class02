@@ -10,12 +10,12 @@ import UIKit
 
 class AViewController: UIViewController {
     
-    @IBOutlet weak var lbMMSG: UILabel!
+    @IBOutlet weak var lbMMSG: UITextField!
     
     @IBAction func btnTestClicked(_ sender: Any) {
         print("我按了什么")
         
-        lbMMSG.text="我要铜锣烧"
+        lbMMSG.text="我要吃大西瓜"
         lbMMSG.textColor=UIColor.red
     }
     override func viewDidLoad() {
