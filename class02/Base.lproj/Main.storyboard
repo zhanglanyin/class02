@@ -83,39 +83,17 @@
                                     <constraint firstAttribute="height" constant="30" id="Xox-Lz-70u"/>
                                 </constraints>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uck-oZ-TLe">
-                                <rect key="frame" x="13" y="70" width="346" height="649"/>
-                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="346" id="7pr-V2-ppL"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="649" id="FDs-od-f8v"/>
-                                    <constraint firstAttribute="height" constant="649" id="G9E-rC-Tfh"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="346" id="I7w-3n-lQ8"/>
-                                </constraints>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="zs5-MC-l7Y" firstAttribute="bottom" secondItem="RTH-aF-P84" secondAttribute="bottom" constant="1" id="0ji-iZ-a9r"/>
-                            <constraint firstItem="zs5-MC-l7Y" firstAttribute="trailing" secondItem="uck-oZ-TLe" secondAttribute="trailing" constant="16" id="2Mf-ts-nkN"/>
-                            <constraint firstItem="uck-oZ-TLe" firstAttribute="leading" secondItem="K0d-Z4-SRE" secondAttribute="leading" constant="13" id="4Yb-4f-Vnw"/>
-                            <constraint firstAttribute="bottom" secondItem="uck-oZ-TLe" secondAttribute="bottom" constant="93" id="FL5-mi-ieE"/>
                             <constraint firstItem="zs5-MC-l7Y" firstAttribute="trailing" secondItem="Lme-PI-2ri" secondAttribute="trailing" constant="1" id="Qd8-fN-bJr"/>
-                            <constraint firstAttribute="trailing" secondItem="uck-oZ-TLe" secondAttribute="trailing" constant="16" id="adF-hE-bgF"/>
                             <constraint firstItem="RTH-aF-P84" firstAttribute="leading" secondItem="zs5-MC-l7Y" secondAttribute="leading" constant="16" id="co9-iL-ipR"/>
-                            <constraint firstItem="uck-oZ-TLe" firstAttribute="top" secondItem="K0d-Z4-SRE" secondAttribute="top" constant="70" id="hJs-cp-cUn"/>
-                            <constraint firstItem="uck-oZ-TLe" firstAttribute="leading" secondItem="zs5-MC-l7Y" secondAttribute="leading" constant="13" id="kZZ-9L-y3o"/>
-                            <constraint firstItem="uck-oZ-TLe" firstAttribute="top" secondItem="zs5-MC-l7Y" secondAttribute="top" constant="26" id="kcL-HD-AJP"/>
                             <constraint firstItem="zs5-MC-l7Y" firstAttribute="bottom" secondItem="Lme-PI-2ri" secondAttribute="bottom" constant="1" id="lq0-ih-GmH"/>
                             <constraint firstItem="Lme-PI-2ri" firstAttribute="leading" secondItem="RTH-aF-P84" secondAttribute="trailing" constant="4" id="ovl-PH-nhD"/>
-                            <constraint firstItem="Lme-PI-2ri" firstAttribute="top" secondItem="uck-oZ-TLe" secondAttribute="bottom" constant="28" id="w9m-YK-3SR"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zs5-MC-l7Y"/>
                     </view>

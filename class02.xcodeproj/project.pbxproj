@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4216461C22D4229500F3DBAC /* AiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216461B22D4229500F3DBAC /* AiewController.swift */; };
+		4216461E22D422B400F3DBAC /* BiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4216461D22D422B400F3DBAC /* BiewController.swift */; };
 		423F1E7C22D0992C00673D75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F1E7B22D0992C00673D75 /* AppDelegate.swift */; };
 		423F1E7E22D0992C00673D75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F1E7D22D0992C00673D75 /* ViewController.swift */; };
 		423F1E8122D0992D00673D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 423F1E7F22D0992D00673D75 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4216461B22D4229500F3DBAC /* AiewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiewController.swift; sourceTree = "<group>"; };
+		4216461D22D422B400F3DBAC /* BiewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiewController.swift; sourceTree = "<group>"; };
 		423F1E7822D0992C00673D75 /* class02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		423F1E7B22D0992C00673D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		423F1E7D22D0992C00673D75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				423F1E8222D0992F00673D75 /* Assets.xcassets */,
 				423F1E8422D0992F00673D75 /* LaunchScreen.storyboard */,
 				423F1E8722D0992F00673D75 /* Info.plist */,
+				4216461B22D4229500F3DBAC /* AiewController.swift */,
+				4216461D22D422B400F3DBAC /* BiewController.swift */,
 			);
 			path = class02;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				423F1E7E22D0992C00673D75 /* ViewController.swift in Sources */,
 				423F1E7C22D0992C00673D75 /* AppDelegate.swift in Sources */,
+				4216461E22D422B400F3DBAC /* BiewController.swift in Sources */,
+				4216461C22D4229500F3DBAC /* AiewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
