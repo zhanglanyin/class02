@@ -8,7 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AsyncReponseDelegate{
+    func receviedReponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
+    }
+    
 
     @IBOutlet weak var lbMSG: UILabel!
     var result:float_t=10.2
@@ -34,18 +37,19 @@ class ViewController: UIViewController {
                print("买\(买几个🍉)个🍉")
         }
         
-        let de = add(a: 1, b: 8)
+        let worker : AsyncRequestWorker = AsyncRequestWorker ()
+        worker.reponseDelegate=self
+        worker.取得回应(from: "https://google.com", tag: 1)
         
-        var ce:Int=1
-        
-        print(de)
-        print("我一定学的会 Swift")
-   
-    
+       
+        NotificationCenter.default.addObserver(self, selector: #selector(收到有关讯息(notification:)), name: NSNotification.Name(rawValue: "response.received"), object: nil)
     }
 
-    func add(a :Int,b :Int) -> Int {
-return a + b
+    @objc func 收到有关讯息(notification: NSNotification) {
+        let hope:String=notification.userInfo!["response"] as! String
+        print(hope)
+
     }
+    
 }
 

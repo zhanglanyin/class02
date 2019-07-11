@@ -19,8 +19,8 @@ class AViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(收到有关讯息(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(收到有关讯息(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     @IBAction func btnACllicked(_ sender: UIButton)
     {
@@ -34,7 +34,7 @@ class AViewController: UIViewController {
     
     
     //.tentcent.com
-    @objc func keyboardWillShow(notification: NSNotification) {
+    @objc func 收到有关讯息(notification: NSNotification) {
         let keyboardHeight = (notification.userInfo![UIResponder.keyboardFrameEndUserInfoKey] as! NSValue).cgRectValue.height
         print("猜猜看：\(keyboardHeight)")
          btnHibottomconstraint.constant=400
